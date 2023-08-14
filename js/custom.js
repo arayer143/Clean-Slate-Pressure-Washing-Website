@@ -68,6 +68,10 @@ jQuery(document).ready(function($) {
 			$("html, body").animate({ scrollTop: 0 }, 1000);
 				return false;
 		});
+        
+
+
+
     $('#post-slider').flexslider({
         // Primary Controls
         controlNav          : false,              //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage

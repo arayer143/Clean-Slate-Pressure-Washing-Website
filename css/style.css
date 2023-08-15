@@ -558,8 +558,37 @@ section.hero-text h1 {
 
 
 
+/* buttons for call me and email */
 
+.btn-container{
 
+    margin-top: 50px;
+    margin-left: 110px;
+    
+}
+
+  .btn-3 {
+    flex: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    font-weight: 200;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+   }
+
+   .btn-3:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  /*End of call me and email */
 
 
 /* Content
@@ -740,30 +769,13 @@ ul.breadcrumb li a:hover {
 
 
 
-/* --- pullquotes --- */
-
-.pullquote-left {
-    display: block;
-    color: #a2a2a2;
-    font-family: 'Noto Serif', serif;
-    font-size: 14px;
-    line-height: 1.6em;
-    padding-left: 20px;
-}
-.pullquote-right {
-    display: block;
-    color: #a2a2a2;
-    font-family: 'Noto Serif', serif;
-    font-size: 14px;
-    line-height: 1.6em;
-    padding-right: 20px;
-}
-/* --- button --- */
+/* --- button on index.html and contact.html --- */
 
 .btn {
     text-align: center;
     background: #1891EC;
     color: #fff;
+    border-radius: 8px;
 }
 .btn-theme {
     color: #fff;
@@ -772,9 +784,18 @@ ul.breadcrumb li a:hover {
     padding: 12px 30px;
     font-weight: bold;
 }
-.btn-theme:hover {
-    color: #eee;
+.btn :hover {
+    color: lightblue;
 }
+
+
+
+
+
+
+
+
+
 /* --- list style --- */
 
 ul.general {
@@ -800,6 +821,12 @@ footer ul.link-list li a {
 footer ul.link-list li a:hover {
     color: #eee;
 }
+
+
+
+
+
+
 /* --- Heading style --- */
 
 h4.heading {
@@ -852,6 +879,11 @@ footer .widget .widgetheading span {
     padding: 0 0;
     padding-top: 16px;
 }
+
+
+
+
+
 /* --- Map --- */
 
 .map {
@@ -897,19 +929,10 @@ footer .widget .flickr_badge img {
     float: left;
     margin: 0 9px 20px 0;
 }
-/* --- Recent post widget --- */
 
-.recent-post {
-    margin: 20px 0 0 0;
-    padding: 0;
-    line-height: 18px;
-}
-.recent-post h5 a:hover {
-    text-decoration: none;
-}
-.recent-post .text h5 a {
-    color: #353535;
-}
+
+
+
 footer {
     padding: 50px 0 0 0;
     color: #f8f8f8;
@@ -920,6 +943,9 @@ footer a {
 footer a:hover {
     color: #eee;
 }
+
+
+
 footer h1,
 footer h2,
 footer h3,
@@ -973,6 +999,9 @@ ul.social-network li {
 #sub-footer ul.social-network {
     float: right;
 }
+
+
+
 /* scroll to top */
 
 .scrollup {

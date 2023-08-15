@@ -562,8 +562,9 @@ section.hero-text h1 {
 
 .btn-container{
 
-    margin-top: 50px;
-    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
     
 }
 

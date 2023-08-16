@@ -646,32 +646,7 @@ section.hero-text h1 {
     background: #fcfcfc;
     padding: 50px 0 0;
 }
-/* twitter */
 
-#twitter-wrapper {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-#twitter em {
-    font-style: normal;
-    font-size: 13px;
-}
-#twitter em.twitterTime a {
-    font-weight: 600;
-}
-#twitter ul {
-    padding: 0;
-    list-style: none;
-}
-#twitter ul li {
-    font-size: 20px;
-    line-height: 1.6em;
-    font-weight: 300;
-    margin-bottom: 20px;
-    position: relative;
-    word-break: break-word;
-}
 /* page headline
 ==================================== */
 
@@ -688,30 +663,7 @@ section.hero-text h1 {
     padding: 5px 0;
     display: block;
 }
-/* --- breadcrumbs --- */
 
-#inner-headline ul.breadcrumb {
-    margin: 40px 0;
-    float: left;
-}
-#inner-headline ul.breadcrumb li {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-#inner-headline ul.breadcrumb li {
-    font-size: 13px;
-    color: #fff;
-}
-#inner-headline ul.breadcrumb li i {
-    color: #dedede;
-}
-#inner-headline ul.breadcrumb li a {
-    color: #fff;
-}
-ul.breadcrumb li a:hover {
-    text-decoration: none;
-}
- 
 
 
 
@@ -767,6 +719,13 @@ button {
     margin-bottom: 1em;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
+  }
+
+  .service-item img{
+    border-radius: 2rem;
+    width:  300px;
+    height: auto;
+    background-size: cover;
   }
   
   @media (max-width: 700px) {

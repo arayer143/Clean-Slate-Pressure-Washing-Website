@@ -27,13 +27,7 @@ a:active {
 }
 
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 700;
-    line-height: 1.1em;
-    color: #333;
-    margin-bottom: 20px;
-}
+
 
 
 .container {
@@ -368,7 +362,13 @@ select.selectmenu {
 
 
 .hero-text{
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.hero-text .container{
+    vertical-align: center;
+    
 }
 
 section.hero-text {
@@ -377,6 +377,8 @@ section.hero-text {
     padding: 50px 0 50px 0;
     color: #fff;
     vertical-align: center;
+    
+
 }
 
 /* Logo Image resizing Done Here */ 
@@ -414,6 +416,7 @@ section.hero-text h1 {
     transition: all 0.5s ease;
     margin-bottom: -15px;
     margin-right: 4px;
+    margin-left: 5px;
   
     
 
@@ -498,7 +501,7 @@ section.hero-text h1 {
   .btn-3 {
     flex: auto;
     margin-top: 50px;
-    margin-right: 10px;
+    margin-right: 15px;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -552,6 +555,7 @@ section.hero-text h1 {
     line-height: 30px;
     font-style: italic;
     font-weight: 300;
+    text-align: center;
 }
 
 
@@ -583,30 +587,7 @@ section.hero-text h1 {
     border-bottom: 3px solid #5DA5E4;
 }
 
-/* Bottom
-==================================== */
 
-#bottom {
-    background: #fcfcfc;
-    padding: 50px 0 0;
-}
-
-/* page headline
-==================================== */
-
-#inner-headline {
-    background: -webkit-linear-gradient(to right, #5DA5E4 , #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5DA5E4, #74ebd5);
-    position: relative;
-    margin: 0;
-    padding: 0;
-  
-}
-#inner-headline h2.pageTitle {
-    color: #FFFFFF;
- 
-    display: block;
-}
 
 
 
@@ -616,6 +597,14 @@ section.hero-text h1 {
 .content{
     height: fit-content;
     margin: 2em;
+}
+
+h2{
+   
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    line-height: 3;
 }
 
 
@@ -666,14 +655,18 @@ section.hero-text h1 {
   }
   
   @media (max-width: 700px) {
+
+    
+
     .services {
-        
+    
       margin: 0;
     }
     
     .service-item {
       width: 80%;
       align-self: center;
+    
     }
   }
 

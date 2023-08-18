@@ -192,7 +192,7 @@ header .nav li .dropdown-menu li a {
 
 
 
-/* --- menu --- */
+/* --- Navbar menu --- */
 
 header .navigation {
     float: right;
@@ -287,8 +287,8 @@ select.selectmenu {
     margin: 0;
     padding: 0;
 }
-/*  Sliders
-==================================== */
+
+/* End of navbar */
 
 
 
@@ -296,12 +296,17 @@ select.selectmenu {
 
 
 
+
+/* Logo image at the Top of Page is Below*/
 
 .banner-image img{
  width: 100%;
  height: auto;
  position: relative;
 }
+
+
+
 
 
 
@@ -328,13 +333,6 @@ section.hero-text {
 
 }
 
-/* Logo Image resizing Done Here */ 
-section.hero-text img{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    float: left;
-    border-radius: 2rem;
-}
 
 section.hero-text h1 {
     color: #fff;
@@ -346,6 +344,14 @@ section.hero-text h1 {
     margin-top: 3rem;
     vertical-align: right;
 }
+
+
+/* About Us section ends*/
+
+
+
+
+
 
 
 
@@ -442,6 +448,11 @@ section.hero-text h1 {
 
 
 
+
+
+
+
+
 /* buttons for call me and email */
 
 .btn-container{
@@ -451,6 +462,8 @@ section.hero-text h1 {
     text-align: left;
     
 }
+
+
 
   .btn-3 {
     flex: auto;
@@ -462,14 +475,15 @@ section.hero-text h1 {
     transition: 0.5s;
     background-size: 200% auto;
     color: black;
-    font-weight: 200;
+    font-weight: 800;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
-    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #007bb5 100%);
+    background-image: linear-gradient(to right, #84fab0 0%, #0563bb 51%, #007bb5 100%);
    }
 
    .btn-3:hover {
     background-position: right center; /* change the direction of the change here */
+    color: black;
   }
 
   /*End of call me and email */

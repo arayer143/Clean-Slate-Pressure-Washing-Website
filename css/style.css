@@ -554,23 +554,6 @@ section.hero-text h1 {
 
 
 
-/* Content
-==================================== */
-
-#content {
-    position: relative;
-    background: whitesmoke;
-    padding: 30px 0 0px 0;
-}
-#content img {
-    max-width: 100%;
-    height: auto;
-    display: inline-table;
-    border: 1px solid #C8C8C8;
-    background: transparent;
-    color: #5DA5E4;
-    border-bottom: 3px solid #5DA5E4;
-}
 
 
 
@@ -584,31 +567,41 @@ section.hero-text h1 {
     margin: 2em;
 }
 
-h2{
-   
-    text-align: center;
-    color: black;
-    font-weight: 700;
-    line-height: 1;
-}
+
 
 
   .wrapper {
     max-width: 960px;
     margin: 0 auto;
     min-height: 25vh;
-    border-radius: 3rem;
+
   }
   
 
   
   #landing {
     height: 25vh;
+    margin-top: -1rem;
+    margin-bottom: -10rem;
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #5DA5E4 , #3BA0F4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5DA5E4, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   }
+
+
+  h1{
+   
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-top: -1rem;
+    margin-bottom: -20rem;
+    line-height: 3;
+}
+
+
+
   
   .services {
     display: flex;
@@ -618,6 +611,10 @@ h2{
     margin-top: -12em;
     height: auto;
     
+  }
+  h2{
+    color: black;
+    font-weight: 600;
   }
   
   .service-item {

@@ -642,7 +642,7 @@ section.hero-text h1 {
     background-size: cover;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 450px) {
 
     
 
@@ -901,7 +901,7 @@ color: white;
 /*  Media queries 
 ============================= */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 450px) {
     a.detail {
         background: none;
         width: 100%;
@@ -1073,7 +1073,7 @@ color: white;
 
 
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 450px) {
     .bottom-article a.pull-right {
         float: left;
         margin-top: 20px;

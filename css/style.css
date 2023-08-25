@@ -642,7 +642,7 @@ section.hero-text h1 {
     background-size: cover;
   }
   
-  @media (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
 
     
 
@@ -650,13 +650,24 @@ section.hero-text h1 {
     
       margin: 0;
     }
+
+    .service-item h2{
+       font-size: 20px;
+    }
     
     .service-item {
       width: 40%;
+      justify-content: space-between;
 
       align-self: center;
 
     
+    }
+
+    .service-item img{
+        width: 150px;
+        height: 150px;
+
     }
   }
 

@@ -642,7 +642,7 @@ section.hero-text h1 {
     background-size: cover;
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
 
     
 
@@ -901,7 +901,7 @@ color: white;
 /*  Media queries 
 ============================= */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     a.detail {
         background: none;
         width: 100%;
@@ -925,7 +925,7 @@ color: white;
     }
     
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .navbar-default .navbar-collapse {
         border-color: none;
         background: #000000;

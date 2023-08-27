@@ -644,7 +644,44 @@ section.hero-text h1 {
   
 
 
+@media (max-width: 700px){
 
+
+    .services {
+        display: grid;
+        margin-left: 5rem;
+        justify-content: center;
+      
+        grid-template-columns: repeat(2, 4fr);
+    }
+    
+        
+    
+    
+     
+      .service-item {
+        width: 70%;
+        height: 300px;
+        justify-content: center;
+    
+      }
+    
+    
+    
+    
+      .service-item h2{
+        justify-content: center;
+         font-size: 15px;
+      }
+     
+    
+    
+      .service-item img{
+       justify-content: center;
+    
+    
+      }
+}
 
 
 
@@ -874,13 +911,11 @@ color: white;
 /*  Media queries 
 ============================= */
 
-@media (max-width: 500px) {
-    a.detail {
-        background: none;
-        width: 100%;
-    }
 
     
+
+    @media (max-width: 767px) {
+
     .navbar-default .navbar-collapse {
         border-color: none;
         background: #000000;
@@ -1007,8 +1042,9 @@ color: white;
         float: left;
     }
  
+}
 
-
+@media (max-width: 480px){
 
 .carousel li {
     margin-right: 5px;
@@ -1036,40 +1072,7 @@ color: white;
 
 
 
-.services {
-    display: grid;
-    margin-left: 5rem;
-    justify-content: center;
-  
-    grid-template-columns: repeat(2, 4fr);
-}
 
-    
-
-
- 
-  .service-item {
-    width: 70%;
-    height: 300px;
-    justify-content: center;
-
-  }
-
-
-
-
-  .service-item h2{
-    justify-content: center;
-     font-size: 15px;
-  }
- 
-
-
-  .service-item img{
-   justify-content: center;
-
-
-  }
 
 
 

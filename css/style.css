@@ -344,6 +344,7 @@ columns: center;
     }
 
     .banner-image img {
+        width: 49%;
      height: 300px;
       justify-items: center;
     }
@@ -662,7 +663,7 @@ section.hero-text h1 {
   
 
 
-@media (max-width: 700px){
+@media (max-width: 500px){
 
 
 

@@ -316,12 +316,38 @@ select.selectmenu {
 
 /* Logo image at the Top of Page is Below*/
 
-.banner-image img{
- width: 100%;
- height: 900;
- position: relative;
+#banner{
+    display: flex;
+    background-color: #166fa9;
+
 }
 
+
+.banner-image img{
+    margin-left: 50rem;
+    margin-right: 50rem;
+    display: flex;
+ width: 50%;
+ height: 500px;
+vertical-align: center;
+columns: center;
+}
+
+@media (max-width:767px){
+
+    #banner{
+        background-color: #166fa9;
+        margin-left: -25rem;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .banner-image img {
+     height: 300px;
+      justify-items: center;
+    }
+}
 
 
 
@@ -423,24 +449,16 @@ section.hero-text h1 {
   }
   
   .rounded-social-buttons .social-button.tiktok {
-    background: #55acee;
+    background: black;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
   }
   
   .rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.twitter:focus {
-    color: #55acee;
-    background: #fefefe;
-    border-color: #55acee;
+    color: #111111;
+    background: white;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
   }
   
-  .rounded-social-buttons .social-button.linkedin {
-    background: #007bb5;
-  }
-  
-  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-    color: #007bb5;
-    background: #fefefe;
-    border-color: #007bb5;
-  }
   
   .rounded-social-buttons .social-button.yelp {
     background: #bb0000;
@@ -453,13 +471,18 @@ section.hero-text h1 {
   }
   
   .rounded-social-buttons .social-button.instagram {
-    background: #125688;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
   }
   
   .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-    color: #125688;
+   
+    color: #3b5998;
     background: #fefefe;
-    border-color: #125688;
+    border-color: #3b5998;
   }
   /*end of social Icons*/
 
@@ -528,6 +551,7 @@ section.hero-text h1 {
 }
 .carousel-indicators {
     bottom: -30px;
+    color: #007bb5;
 }
 .text-center img {
     margin: auto;
@@ -608,7 +632,7 @@ section.hero-text h1 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: -12em;
+    margin-top: -10em;
     height: auto;
     
   }
@@ -621,7 +645,7 @@ section.hero-text h1 {
     padding-top: 1em;
     background: lightgrey;
     width: 20%;
-    height: 400;
+    height: 200;
     text-align: center;
     flex-direction: column;
     margin-top: 1em;
@@ -635,16 +659,17 @@ section.hero-text h1 {
     text-align: center;
   }
 
-  .service-item img{
-    border-radius: 2rem;
-    width:  60%;
-    height: 200;
-    background-size: cover;
-  }
   
 
 
 @media (max-width: 700px){
+
+
+
+    #landing{
+        height: 20vh;
+
+    }
 
 
     .services {
@@ -661,7 +686,7 @@ section.hero-text h1 {
      
       .service-item {
         width: 70%;
-        height: 300px;
+        height: 200px;
         justify-content: center;
     
       }
@@ -669,18 +694,14 @@ section.hero-text h1 {
     
     
     
-      .service-item h2{
+    h2{
         justify-content: center;
-         font-size: 15px;
+         font-size: 25px;
       }
      
     
     
-      .service-item img{
-       justify-content: center;
     
-    
-      }
 }
 
 
@@ -1042,6 +1063,10 @@ color: white;
         float: left;
     }
  
+
+
+
+
 }
 
 @media (max-width: 480px){

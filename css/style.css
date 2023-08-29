@@ -630,6 +630,7 @@ section.hero-text h1 {
   
   .services {
     display: flex;
+    grid-template-columns: repeat(4, 4fr);
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -637,10 +638,7 @@ section.hero-text h1 {
     height: auto;
     
   }
-  h2{
-    color: black;
-    font-weight: 600;
-  }
+
   
   .service-item {
     padding-top: 1em;
@@ -656,14 +654,17 @@ section.hero-text h1 {
     position: relative;
   }
 
-  .service-item h2{
-    text-align: center;
+  .service-item  h2{
+    
+    color: black;
+    font-weight: 700;
+    font-size: px;
   }
 
   
 
 
-@media (min-width: 500px){
+@media (max-width: 768px){
 
 
 
@@ -678,8 +679,9 @@ section.hero-text h1 {
         margin-left: 5rem;
         justify-content: center;
         margin-top: 3rem;
+       
       
-        grid-template-columns: repeat(2, 4fr);
+        grid-template-columns: repeat(4, 4fr);
     }
     
         
@@ -696,9 +698,9 @@ section.hero-text h1 {
     
     
     
-    h2{
+    .service-item h2{
         justify-content: center;
-         font-size: 25px;
+         font-size: 15px;
       }
      
     

@@ -345,8 +345,8 @@ columns: center;
 
     .banner-image img {
         width: 49%;
-     height: 300px;
-      justify-items: center;
+        height: 300px;
+        justify-items: center;
     }
 }
 
@@ -865,20 +865,34 @@ color: white;
 /* Start of the image gallery */
 
 
+.image-gallery{
+    border-radius: 1rem;
+    background-color: #007bb5;
+}
+
+.gallery-container{
+    background-color: #007bb5;
+    border-radius: 1rem;
+}
+
 
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	/* Compensate for excess margin on outer gallery flex items */
 	margin: -1rem -1rem;
+
+    border-radius: 1rem;
 }
 
 .gallery-item {
 	/* Minimum width of 24rem and grow to fit available space */
 	flex: 1 0 24rem;
 	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
+
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+
 
 }
 
@@ -891,9 +905,58 @@ color: white;
 	transition: transform 400ms ease-out;
 }
 
-.gallery-image:hover {
-	transform: scale(1.15);
-    
+
+
+
+/* Hide checkbox */
+input.image-toggler {
+    display: none;
+    border-radius: 1rem;
+    background-color: #007bb5;
+  }
+  
+  /* When checkbox is unchecked, show thumbnail and hide full image */
+  img.full {
+    display: none;
+    border-radius: 1rem;
+
+  }
+  
+  /* When checkbox is checked, hide thumbnail and show full image */
+  input.image-toggler:checked + img.thumbnail {
+    display: none;
+    border-radius: 1rem;
+  }
+  
+  input.image-toggler:checked + img.thumbnail + img.full {
+    display: grid;
+    border-radius: 1rem;
+  }
+
+ 
+
+  .gallery-item img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+
+  .gallery-item label{
+    background-color: #166fa9;
+    border-radius: 1rem;
+
+  }
+
+  .gallery-item p{
+    text-align: bottom;
+  }
+
+
+
+
+.button{
+    margin-left: 45%;
 }
 
 

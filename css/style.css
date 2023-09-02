@@ -872,7 +872,7 @@ font-weight: 700;
 
 h3{
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
     color: black;
 
 }
@@ -885,6 +885,7 @@ h3{
 
 
 .gallery {
+    margin-top: 5rem;
 	display: flex;
 	flex-wrap: wrap;
 	/* Compensate for excess margin on outer gallery flex items */
@@ -950,16 +951,13 @@ input.image-toggler {
     border-radius: 1rem;
     background-color: #007bb5;
     border-color: black;
+    object-fit: cover;
   }
 
   .gallery-item label{
     background-color: #166fa9;
     border-radius: 1rem;
 
-  }
-
-  .gallery-item p{
-    text-align: bottom;
   }
 
 

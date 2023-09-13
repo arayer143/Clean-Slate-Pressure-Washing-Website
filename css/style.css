@@ -335,11 +335,12 @@ vertical-align: center;
 columns: center;
 }
 
-@media (max-width:767px){
+@media (max-width:768px){
 
     #banner{
         background-color: #166fa9;
         margin-left: -25rem;
+        margin-right: -25rem;
         display: flex;
         justify-content: center;
     
@@ -348,9 +349,9 @@ columns: center;
     .banner-image img {
      
         height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -694,7 +695,7 @@ section.hero-text h1 {
      
       .service-item {
         width: 70%;
-        height: 200px;
+        height: 180px;
         justify-content: center;
     
       }
@@ -1044,7 +1045,7 @@ input.image-toggler {
 
     
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
 
     .navbar-default .navbar-collapse {
         border-color: none;
@@ -1090,7 +1091,7 @@ input.image-toggler {
     .nav-social-icons a{
         padding: 10px;
         height: 50%;
-        width: 100%;
+        width: 90%;
         font-size: 20px;
         
     }

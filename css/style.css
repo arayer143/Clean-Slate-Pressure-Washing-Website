@@ -1011,6 +1011,58 @@ input.image-toggler {
 }
 
 
+.footer-section {
+    background: whitesmoke;
+    position: relative;
+  }
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+  }
+
+ 
+
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+
+  .cta-text h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text a{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .footer-social-icon span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .footer-widget .rounded-social-buttons{
+    margin-top: 1rem;
+  }
+
+  .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+  }
 
 
 
@@ -1181,9 +1233,6 @@ input.image-toggler {
         padding: 0 0 0 0;
     }
 
-    #sub-footer ul.social-network {
-        float: left;
-    }
  
 
 

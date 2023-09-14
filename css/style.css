@@ -330,8 +330,6 @@ select.selectmenu {
 
 
 .banner-image img{
-    margin-left: 50rem;
-    margin-right: 50rem;
     display: flex;
 object-fit: fill;
  height: 500px;
@@ -339,11 +337,10 @@ vertical-align: center;
 columns: center;
 }
 
-@media (max-width:600px){
-
+@media (max-width:786px){
     #banner{
         background-color: #166fa9;
-
+        width: auto;
         display: flex;
         justify-content: center;
     
@@ -566,7 +563,13 @@ section.hero-text h1 {
 .carousel-indicators {
     bottom: -30px;
     color: #007bb5;
+    
 }
+
+.carousel-indicators .active{
+    color: #007bb5;
+}
+
 .text-center img {
     margin: auto;
     width: 100%;
@@ -629,7 +632,6 @@ section.hero-text h1 {
 
 
   h1{
-   
     text-align: center;
     color: black;
     font-weight: 700;
@@ -647,7 +649,7 @@ section.hero-text h1 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: -10em;
+    margin-top: 2rem;
     height: auto;
     
   }
@@ -662,7 +664,7 @@ section.hero-text h1 {
     flex-direction: column;
     margin-top: 1em;
     margin-bottom: 1em;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px black;
     border-radius: 1rem;
     position: relative;
   }

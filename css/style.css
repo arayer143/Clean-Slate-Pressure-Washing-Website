@@ -335,7 +335,7 @@ vertical-align: center;
 columns: center;
 }
 
-@media (max-width:768px){
+@media (max-width:992px){
 
     #banner{
         background-color: #166fa9;
@@ -347,11 +347,11 @@ columns: center;
     }
 
     .banner-image img {
-     
+        
         height: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        
+        object-fit: fill;
+     
     }
 }
 

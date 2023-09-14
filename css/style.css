@@ -230,7 +230,7 @@ header ul.nav li ul li a {
    margin-bottom: 20px;
 }
 
-.nav-social-icons a :focus{
+.nav-social-icons a :hover{
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
         transform: rotate(360deg);

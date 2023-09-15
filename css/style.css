@@ -27,7 +27,9 @@ a:active {
 }
 
 
-
+header{
+    background-color: #166fa9;
+}
 
 
 .container {
@@ -58,13 +60,13 @@ a:active {
     margin-bottom: 0;
 }
 
-img.img-polaroid {
-    margin: 0 0 20px 0;
+
+
+
+
+.service-page{
+    background-color: #166fa9;
 }
-
-
-
-
 
 
 
@@ -74,7 +76,7 @@ img.img-polaroid {
 
 header .navbar {
     margin-bottom: 0;
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 .navbar-default {
@@ -82,14 +84,14 @@ header .navbar {
 }
 
 .navbar-brand {
-    color: white;
+    color: #166fa9;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
     line-height: 1em;
     letter-spacing: -1px;
-    margin-top: 15px;
-    padding: 0 0 0 5px;
+    margin-top: 10px;
+    padding: 0 0 0 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -99,12 +101,16 @@ header .navbar {
 header .navbar-collapse ul.navbar-nav {
     float: right;
     margin-right: 0;
+  
 }
 header .navbar {
-    min-height: 70px;
+    min-height: 60px;
     padding: 18px 0;
-    background: #000000;
+    background: #166fa9;
 }
+
+
+
 .home-page header .navbar-default {
     background: rgba(0, 50, 142, 0.01);
     position: absolute;
@@ -184,7 +190,7 @@ header .nav li .dropdown-menu {
 }
 header .nav li .dropdown-menu li a {
     line-height: 28px;
-    padding: 3px 12px;
+    padding: 3px 9px;
 }
 
 
@@ -1207,7 +1213,8 @@ input.image-toggler {
     }
     header .navbar-nav > li {
         padding-bottom: 2px;
-        padding-top: 3px;
+        padding-top: 1px;
+        align-items: right;
     }
     header .nav li .dropdown-menu {
         margin-top: 0;
@@ -1266,7 +1273,7 @@ input.image-toggler {
     }
 
  
-
+    
 
 
 
@@ -1298,11 +1305,110 @@ input.image-toggler {
 
 
 
-
-
-
-
-
-
 }
+
+
+
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+.services-section{
+    background: linear-gradient(to right, #5DA5E4, #74ebd5);
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .section-title{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .border{
+    width: 160px;
+    height: 2px;
+    background: black;
+    margin: 40px auto;
+  }
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#000;
+  }
+  
+  .service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    color: black;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+  }
+  .service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+    color: #000;
+  }
+  .service-box:hover .service-icon{
+    background: #82ccdd;
+    color: #ddd;
+  }
+  .service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .service-desc{
+    font-size: 14px;
+    color: black;
+  }
+  
+  @media screen and (max-width:960px) {
+    .service-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .service-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .service-box{
+      max-width: 100%;
+    }
+  }
+  

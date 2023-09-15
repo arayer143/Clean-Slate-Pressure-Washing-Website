@@ -611,7 +611,7 @@ section.hero-text p {
   .testimonial-text{
       font-style: italic;
   }
-  .testimonial-author{
+  .card-body a{
       margin-top: 0.5rem;
       font-weight: bold;
   }

@@ -1494,6 +1494,10 @@ input.image-toggler {
     .service-img{
     width:125px;
     height:125px;
+    margin-bottom: -6px;
+    margin-top: -3rem;
+    margin-right: 15rem;
+    margin-left: -2rem;
        
     }
     .service-img:hover{
@@ -1509,6 +1513,10 @@ input.image-toggler {
     .service-img{
         width:125px;
         height:125px;
+        margin-bottom: -6px;
+        margin-top: -3rem;
+        margin-right: 15rem;
+        margin-left: -2rem;
            
         }
         .service-img:hover{
@@ -1523,6 +1531,10 @@ input.image-toggler {
     .service-img{
         width:125px;
         height:125px;
+        margin-bottom: -6px;
+        margin-top: -3rem;
+        margin-right: 15rem;
+        margin-left: -2rem;
            
         }
         .service-img:hover{

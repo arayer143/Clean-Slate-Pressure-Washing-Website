@@ -1492,19 +1492,40 @@ input.image-toggler {
     }
 
     .service-img{
+    width:125px;
+    height:125px;
        
     }
+    .service-img:hover{
+        transform: scale(2);
+
   }
   
   @media screen and (max-width:768px) {
     .service-box{
       max-width: 50%;
     }
+
+    .service-img{
+        width:125px;
+        height:125px;
+           
+        }
+        .service-img:hover{
+            transform: scale(2);
   }
   
   @media screen and (max-width:480px) {
     .service-box{
       max-width: 100%;
     }
+
+    .service-img{
+        width:125px;
+        height:125px;
+           
+        }
+        .service-img:hover{
+            transform: scale(2);
   }
   

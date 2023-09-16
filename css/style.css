@@ -1450,24 +1450,30 @@ input.image-toggler {
     display: inline-block;
     width: 70px;
     height: 70px;
-    border: 3px solid black;
+
     color: black;
-    transform: rotate(45deg);
     margin-bottom: 30px;
     margin-top: 16px;
     transition: 0.3s linear;
   }
-  .service-icon i{
-    display: inline-block;
-    line-height: 70px;
-    transform: rotate(-45deg);
-    font-size: 26px;
-    color: #000;
+  
+  .service-img{
+    width:100px;
+    height:100px ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -6px;
+    margin-top: -1rem;
+    margin-right: 15rem;
+    margin-left: -2rem;
   }
-  .service-box:hover .service-icon{
-    transform: rotateX('90');
-    background: #82ccdd;
-    color: #ddd;
+
+  .service-img:hover{
+    transform: scale(3);
+
+    
   }
   .service-title{
     font-size: 18px;
@@ -1483,6 +1489,10 @@ input.image-toggler {
   @media screen and (max-width:960px) {
     .service-box{
       max-width: 45%;
+    }
+
+    .service-img{
+       
     }
   }
   

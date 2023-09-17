@@ -408,8 +408,9 @@ h1{
     text-align: center;
     font-weight: 800;
     color: black;
-    margin-top: 10rem;
-    margin-bottom: -7rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+
 }
 
 hr{
@@ -433,6 +434,9 @@ hr{
     text-align: center;
     display: flex;
   justify-content:center ;
+  margin-top: 3rem;
+
+
   }
   
   .rounded-social-buttons .social-button {
@@ -517,7 +521,12 @@ hr{
 
 
 
-
+h2{
+    color: #000;
+    font-weight: 500;
+    margin-top: 7rem;
+    margin-bottom: -7rem;
+}
 
 
 
@@ -603,11 +612,6 @@ hr{
       place-items: center;
   }
 
-  h2{
-      font-size: 2rem;
-      font-weight: 800;
-      color: black;
-  }
 
   .heading h2::after{
       content: "";
@@ -689,7 +693,7 @@ hr{
   }
 
 
-  h4{
+  h3{
     text-align: center;
     color: black;
     font-weight: 700;
@@ -727,11 +731,11 @@ hr{
     position: relative;
   }
 
-  .service-item  h2{
+  .service-item  h4{
     
     color: black;
     font-weight: 700;
-    font-size: px;
+    font-size: 15px;
   }
 
   

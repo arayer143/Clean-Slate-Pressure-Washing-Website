@@ -1429,7 +1429,7 @@ input.image-toggler {
 
 
 
-
+/* Services.html page starts here   */
 
 
 
@@ -1438,7 +1438,7 @@ input.image-toggler {
     background: linear-gradient(to right, #5DA5E4, #74ebd5);
     background-size: cover;
     padding: 60px 0;
-  }
+}
   .inner-width{
     width: 100%;
     max-width: 900px;
@@ -1447,7 +1447,21 @@ input.image-toggler {
     margin: auto;
     padding: 0 20px;
     overflow: hidden;
+    text-align: center;
   }
+
+
+  h7{
+    margin-bottom: 10rem;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+
+
+
+
   .section-title{
     text-align: center;
     color: black;

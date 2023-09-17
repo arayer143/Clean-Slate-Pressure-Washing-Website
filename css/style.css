@@ -1136,26 +1136,24 @@ input.image-toggler {
 .footer-section {
     background: whitesmoke;
     display: flex;
-    height: 300px;
+    height: 250px;
     
   }
   .footer-cta {
-    margin-top: 10rem;
+    margin-top: 4rem;
     border-bottom: 1px solid #373636;
     display: flex;
     justify-content: space-around;
+
   }
 
-  .single-cta{
-    display: flex;
-    
-  }
 
-  .single-cta i {
+  .cta-text i{
     display: flex;
     color: #ff5e14;
     font-size: 30px;
-  
+    margin-left: -13rem;
+    margin-right: -1rem;
     margin-top: 8px;
     justify-content: space-around;
   }
@@ -1163,7 +1161,7 @@ input.image-toggler {
  
 
   .cta-text {
-    padding-left: 15px;
+    padding-left: 5px;
     display: flex;
     justify-content: space-around;
     margin-right: 20px;
@@ -1183,7 +1181,7 @@ input.image-toggler {
     color: #757575;
     font-size: 15px;
     font-weight: 500;
-    margin-left: -7rem;
+    margin-left: -10rem;
     margin-top: 4rem;
   }
 
@@ -1340,11 +1338,24 @@ input.image-toggler {
 
     .footer-section{
         justify-content: center;
-        margin-right: -3rem;
+        
+       
+    }
+    
+    .cta-text{
+        margin-left: 3rem;
+    }
+
+    .cta-text i{
+        justify-content: space-around;  
+        margin-left:-3rem;
     }
 
     .cta-text h4{
         font-size: 15px;
+        display: flex;
+        margin-left: 20px;
+
     }
     
     .cta-text a{

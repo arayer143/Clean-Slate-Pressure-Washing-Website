@@ -416,6 +416,19 @@ section.hero-text p {
    justify-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .review-buttons a{
     display: flex;
     padding: 10px;
@@ -504,33 +517,21 @@ hr{
     background: #3b5998;
   }
   
-  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
-    color: #3b5998;
-    background: #fefefe;
-    border-color: #3b5998;
-  }
+
   
   .rounded-social-buttons .social-button.tiktok {
     background: black;
     filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
   }
   
-  .rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.twitter:focus {
-    color: #111111;
-    background: white;
-    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4)
-  }
+
   
   
   .rounded-social-buttons .social-button.yelp {
     background: #bb0000;
   }
   
-  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.yelp:focus {
-    color: #bb0000;
-    background: #fefefe;
-    border-color: #bb0000;
-  }
+  
   
   .rounded-social-buttons .social-button.instagram {
     background: #f09433;
@@ -540,12 +541,7 @@ hr{
 
   }
   
-  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-   
-    color: #3b5998;
-    background: #fefefe;
-    border-color: #3b5998;
-  }
+
   /*end of social Icons*/
 
 

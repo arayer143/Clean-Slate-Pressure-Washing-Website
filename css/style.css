@@ -1542,7 +1542,8 @@ input.image-toggler {
     width: 160px;
     height: 2px;
     background: black;
-    margin: 40px auto;
+    margin: 35px auto;
+    margin-top: -2.5rem;
   }
   .services-container{
     display: flex;

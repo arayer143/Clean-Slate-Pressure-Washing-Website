@@ -906,21 +906,6 @@ h5{
 
 
 
-#bottom .widget .widgetheading span,
-aside .widget .widgetheading span,
-footer .widget .widgetheading span {
-    position: absolute;
-    width: 60px;
-    height: 1px;
-    
-    right: 0;
-}
-.box-area {
-    padding: 0 0;
-    padding-top: 16px;
-}
-
-
 
 
 
@@ -1554,14 +1539,16 @@ input.image-toggler {
     
   }
   .service-title{
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 900;
   }
   .service-desc{
-    font-size: 14px;
+    font-size: 18px;
     color: black;
+    font-weight: 500;
+
   }
   
   @media screen and (max-width:960px) {
@@ -1582,6 +1569,18 @@ input.image-toggler {
         transform: scale(2);
 
   }
+
+  
+  .service-title{
+    font-size: 16px;
+}
+
+.service-desc{
+    font-size: 14px;
+}
+
+
+}
   
   @media screen and (max-width:768px) {
     .service-box{
@@ -1600,6 +1599,18 @@ input.image-toggler {
         .service-img:hover{
             transform: scale(2);
   }
+
+
+  
+  .service-title{
+    font-size: 16px;
+}
+
+.service-desc{
+    font-size: 14px;
+}
+
+}
   
   @media screen and (max-width:480px) {
     .service-box{
@@ -1617,5 +1628,15 @@ input.image-toggler {
         }
         .service-img:hover{
             transform: scale(2);
+        }
+
+
+        .service-title{
+            font-size: 16px;
+        }
+
+        .service-desc{
+            font-size: 14px;
+        }
   }
   

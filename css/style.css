@@ -248,16 +248,19 @@ header ul.nav li ul li a {
 .navbar .nav > .active > a:hover {
     background: none;
     font-weight: 700;
+    background-color: #000;
 }
 .navbar .nav > .active > a:active,
 .navbar .nav > .active > a:focus {
     background: none;
+    background-color: #000;
     outline: 0;
     font-weight: 700;
 }
 .navbar .nav li .dropdown-menu {
     z-index: 2000;
     border-radius: 1px;
+    background-color: #000;
 }
 header ul.nav li ul {
     margin-top: 1px;
@@ -271,6 +274,7 @@ header ul.nav li ul li ul {
     margin-top: 3px;
     padding-left: 20px;
     border-radius: 2rem;
+    background-color: #000;
 }
 .navbar .nav > li > .dropdown-menu:before {
     display: inline-block;
@@ -279,6 +283,7 @@ header ul.nav li ul li ul {
     border-left: none;
     border-bottom-color: none;
     content: none;
+    border-radius: 1rem;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -290,7 +295,7 @@ header ul.nav li ul li ul {
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: black;
+    color: #Bf9553;
     background-color: transparent;
 }
 ul.nav li.dropdown a {
@@ -1422,7 +1427,7 @@ input.image-toggler {
     li.active {
         border: none;
         overflow: hidden;
-        background: #5DA5E4;
+        background: #000;
     }
     .box {
         border-bottom: 1px solid #e9e9e9;

@@ -25,7 +25,7 @@ a:active {
 
 
 header{
-    background-color: #166fa9;
+    background-color: #66369D;
 }
 
 
@@ -62,7 +62,7 @@ header{
 
 
 .service-page{
-    background-color: #166fa9;
+    background-color: #66369D;
 }
 
 
@@ -74,6 +74,7 @@ header{
 header .navbar {
     margin-bottom: 0;
     margin-right: 2rem;
+    z-index: 500;
 }
 
 .navbar-default {
@@ -81,7 +82,7 @@ header .navbar {
 }
 
 .navbar-brand {
-    color: #166fa9;
+    color: #66369D;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
@@ -92,7 +93,7 @@ header .navbar {
 }
 
 .navbar-default .navbar-brand {
-    color: #1891EC;
+    color: #66369D;
 }
 
 header .navbar-collapse ul.navbar-nav {
@@ -103,7 +104,7 @@ header .navbar-collapse ul.navbar-nav {
 header .navbar {
     min-height: 60px;
     padding: 18px 0;
-    background: #166fa9;
+    background: #66369D;
 }
 
 
@@ -227,7 +228,7 @@ header ul.nav li ul li a {
 
 .nav-social-icons a{
 
-    color: white;
+    color: #Bf9553;
    font-size: 20px;
    padding: 15px;
    margin-top: -20px;
@@ -283,13 +284,13 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: black;
-    background: #5DA5E4;
+    background: #Bf9553;
     border-radius: 1rem;
 
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #5DA5E4;
+    color: black;
     background-color: transparent;
 }
 ul.nav li.dropdown a {
@@ -321,7 +322,7 @@ select.selectmenu {
 
 #banner{
     display: flex;
-    background-color: #166fa9;
+    background: linear-gradient(135deg, #66369D 60%, #Bf9553);
     align-items: center;
     justify-content: center;
 
@@ -338,7 +339,7 @@ columns: center;
 
 @media (min-width:300px){
     #banner{
-        background-color: #166fa9;
+      background: linear-gradient(135deg, #66369D 60%, #Bf9553);
         width: auto;
         display: flex;
         justify-content: center;
@@ -376,8 +377,8 @@ section.hero-text {
 
     color: #fff;
     display: flex;
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
     justify-content: center;
     
@@ -691,11 +692,13 @@ h5{
 }
 
 
+
 .container {
     width: 100%;
     padding: 5px 30px;
     position: relative;
     margin-top: 15px;
+  
   }
   .container .swiper {
     margin-top: 15px;
@@ -714,7 +717,22 @@ h5{
       background-color: whitesmoke;
       color: black;
       height: 500px;
+      margin-left: 10rem;
+      margin-right: 10rem;
   }
+
+  @media  (min-width:300px){
+
+    .work{
+  
+    margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+  }
+
+
+
 
   .work-container{
       max-width: 1200px;
@@ -733,7 +751,7 @@ h5{
       content: "";
       height: 2px;
       width: 100px;
-      background-color: #ff725e;
+      background-color: #66369D;
       display: block;
       margin: 0.3rem auto 0;
   }
@@ -805,9 +823,8 @@ h5{
     height: 25vh;
     margin-top: -1rem;
     margin-bottom: -10rem;
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5DA5E4 , #3BA0F4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5DA5E4, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(135deg, #66369D 60%, #Bf9553);
+
 
     
   }
@@ -986,8 +1003,7 @@ font-weight: 700;
 .image-gallery{
     display: grid;
 
-    background: -webkit-linear-gradient(to right, #5DA5E4 , #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5DA5E4, #74ebd5);
+    background: #66369D ;
 }
 
 h6{
@@ -1043,7 +1059,7 @@ h6{
 input.image-toggler {
     display: none;
     border-radius: 1rem;
-    background-color: #007bb5;
+    background-color: #bf9553;
   }
   
   /* When checkbox is unchecked, show thumbnail and hide full image */
@@ -1062,7 +1078,7 @@ input.image-toggler {
   input.image-toggler:checked + img.thumbnail + img.full {
     display: flex;
     border-radius: 1rem;
-    border-color: #0563bb;
+    border-color: #bf9553;
   }
 
  
@@ -1072,14 +1088,14 @@ input.image-toggler {
     width: 100%;
     height: 400px;
     border-radius: 1rem;
-    background-color: #007bb5;
+    background-color: #66369D;
     border-color: black;
     object-fit: cover;
   }
 
   .gallery-item label{
     display: flex;
-    background-color: #166fa9;
+    background-color: #Bf9553;
     border-radius: 1rem;
 
   }
@@ -1100,13 +1116,13 @@ input.image-toggler {
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    background-color: #007bb5;
+    background-color: #66369D;
     border-color: black;
   }
 
 
   .gallery-item label{
-    background-color: #166fa9;
+    background-color: #bf9553;
     border-radius: 1rem;
 
   }
@@ -1222,8 +1238,23 @@ input.image-toggler {
     background: whitesmoke;
     display: flex;
     height: 250px;
+    margin-left: 10rem;
+    margin-right: 10rem;
     
   }
+
+
+@media  (min-width:300px){
+
+  .footer-section{
+
+  margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+}
+
+
   .footer-cta {
     margin-top: 4rem;
     border-bottom: 1px solid #373636;
@@ -1235,7 +1266,7 @@ input.image-toggler {
 
   .cta-text i{
     display: flex;
-    color: #ff5e14;
+    color: #66369D;
     font-size: 30px;
     margin-left: -13rem;
     margin-right: -1rem;
@@ -1505,7 +1536,7 @@ input.image-toggler {
 
 
 .services-section{
-    background: linear-gradient(to right, #5DA5E4, #74ebd5);
+  background: linear-gradient(135deg, #66369D 60%, #Bf9553);
     background-size: cover;
     padding: 60px 0;
 }

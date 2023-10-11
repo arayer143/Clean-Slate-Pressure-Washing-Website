@@ -327,7 +327,7 @@ select.selectmenu {
 
 #banner{
     display: flex;
-    background: linear-gradient(135deg, #Bf9553 20%, #66369D);
+    background: linear-gradient(135deg, #Bf9553 10%, #66369D  80%);
     align-items: center;
     justify-content: center;
 

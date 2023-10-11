@@ -228,7 +228,7 @@ header ul.nav li ul li a {
 
 .nav-social-icons a{
 
-    color: #Bf9553;
+    color: black;
    font-size: 20px;
    padding: 15px;
    margin-top: -20px;
@@ -327,7 +327,7 @@ select.selectmenu {
 
 #banner{
     display: flex;
-    background: linear-gradient(135deg, #66369D 60%, #Bf9553);
+    background: linear-gradient(135deg, #Bf9553 20%, #66369D);
     align-items: center;
     justify-content: center;
 
@@ -337,14 +337,14 @@ select.selectmenu {
 .banner-image img{
     display: flex;
 object-fit: fill;
- height: 500px;
+ height: 800px;
 vertical-align: center;
 columns: center;
 }
 
 @media (min-width:300px){
     #banner{
-      background: linear-gradient(135deg, #66369D 60%, #Bf9553);
+      background: linear-gradient(135deg, #Bf9553 60%, #66369D));
         width: auto;
         display: flex;
         justify-content: center;
@@ -837,7 +837,7 @@ h5{
 
   h3{
     text-align: center;
-    color: black;
+    color: white;
     font-weight: 700;
     margin-top: -1rem;
     margin-bottom: -20rem;
@@ -900,10 +900,13 @@ h5{
         margin-top: 3rem;
        
       
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
-        
+    .service-item .fa-stack-2x{
+      font-size: 2em;
+      text-align: center;
+    }    
     
     
      
@@ -914,7 +917,14 @@ h5{
     
     
       }
-    
+
+
+
+
+    .service-item i{
+      font-size: 30px;
+      vertical-align: middle;
+    }
    
     
     

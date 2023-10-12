@@ -561,7 +561,7 @@ hr{
     font-size: large;
     font-weight: 500;
     border-radius: 50%;
-  s  transition: all 0.10 ease;
+    transition: all 0.10 ease;
     margin-bottom: -15px;
     margin-right: 4px;
     margin-left: 5px;

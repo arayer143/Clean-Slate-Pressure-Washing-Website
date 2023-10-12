@@ -328,9 +328,9 @@ select.selectmenu {
 #banner{
     height:300px;
     width:300px;
-    border:1px solid black;
+    
     font-size:30px;
-    background: linear-gradient(-45deg, #Bf9553 , #522888, #66369D  );
+    background: linear-gradient(-35deg, #522888, #Bf9553 , #66369D  );
     background-size: 200% 200%;
 
    -webkit-animation: Animation 10s ease infinite;
@@ -340,17 +340,17 @@ select.selectmenu {
 
 @-webkit-keyframes Animation {
     0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
+    50%{background-position:90% 100%}
     100%{background-position:10% 0%}
 }
 @-moz-keyframes Animation {
     0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
+    50%{background-position:90% 100%}
     100%{background-position:10% 0%}
 }
 @keyframes Animation { 
     0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
+    50%{background-position:90% 100%}
     100%{background-position:10% 0%}
 }
 

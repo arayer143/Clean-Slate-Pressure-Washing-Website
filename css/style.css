@@ -330,7 +330,7 @@ select.selectmenu {
     width:300px;
     border:1px solid black;
     font-size:30px;
-    background: linear-gradient(130deg, #Bf9553 ,  #66369D  );
+    background: linear-gradient(-45deg, #Bf9553 , #522888, #66369D  );
     background-size: 200% 200%;
 
    -webkit-animation: Animation 10s ease infinite;
@@ -1301,11 +1301,12 @@ input.image-toggler {
 
   .cta-text i{
     display: flex;
-    color: #66369D;
+    color: black;
     font-size: 30px;
     margin-left: -13rem;
     margin-right: -1rem;
-    margin-top: 8px;
+    margin-top: 2px;
+    margin-bottom: 2rem;
     justify-content: space-around;
   }
 

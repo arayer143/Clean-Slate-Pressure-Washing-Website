@@ -326,17 +326,37 @@ select.selectmenu {
 /* Logo image at the Top of Page is Below*/
 
 #banner{
-    display: flex;
-    background: linear-gradient(135deg, #Bf9553 10%, #66369D  80%);
-    align-items: center;
-    justify-content: center;
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    font-size:30px;
+    background: linear-gradient(130deg, #Bf9553 ,  #66369D  );
+    background-size: 200% 200%;
 
+   -webkit-animation: Animation 10s ease infinite;
+    -moz-animation: Animation 10s ease infinite;
+    animation: Animation 10s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 
 
 .banner-image img{
     display: flex;
-object-fit: fill;
  height: 800px;
 vertical-align: center;
 columns: center;
@@ -344,7 +364,7 @@ columns: center;
 
 @media (min-width:300px){
     #banner{
-      background: linear-gradient(135deg, #Bf9553 60%, #66369D));
+      
         width: auto;
         display: flex;
         justify-content: center;
@@ -541,7 +561,7 @@ hr{
     font-size: large;
     font-weight: 500;
     border-radius: 50%;
-    transition: all 0.5s ease;
+  s  transition: all 0.10 ease;
     margin-bottom: -15px;
     margin-right: 4px;
     margin-left: 5px;
@@ -647,8 +667,8 @@ h2{
     width: 40%;
     padding: 10px;
     text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
+    text-transform: uppsercase;
+    transition: 0.10;
     background-size: 200% auto;
     color: black;
     font-weight: 800;
@@ -1225,8 +1245,8 @@ input.image-toggler {
     text-align: center;
     padding: 30px;
     text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
+    text-transform: uppsercase;
+    transition: 0.10;
     background-size: 200% auto;
     color: black;
     font-weight: 800;

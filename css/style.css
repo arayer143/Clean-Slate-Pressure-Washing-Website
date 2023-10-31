@@ -71,6 +71,96 @@ header{
 
 
 
+h1{
+  text-align: center;
+  font-weight: 800;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+
+}
+
+
+
+h2{
+  color: #000;
+  font-weight: 500;
+  margin-top: 7rem;
+  margin-bottom: -7rem;
+}
+
+
+h3{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-top: -1rem;
+  margin-bottom: -20rem;
+  line-height: 3;
+}
+
+
+
+h4{
+    
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+  
+
+
+h5{
+  margin-top: -6rem;
+  margin-left: -1rem;
+  font-size: 20px;
+
+  color: black;
+  font-weight: 700;
+}
+
+
+
+
+h6{
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+
+}
+
+
+
+
+
+h7{
+  margin-bottom: 15em;
+
+  text-align: center;
+  vertical-align: center;
+  
+}
+
+
+
+h9{
+  color: white;
+}
+
+
+
+hr{
+  color: #000;
+}
+
+
+
+
 /*  Header
 ==================================== */
 
@@ -519,18 +609,7 @@ section.hero-text p {
     
 }
 
-h1{
-    text-align: center;
-    font-weight: 800;
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
 
-}
-
-hr{
-    color: #000;
-}
 
 
 
@@ -634,12 +713,6 @@ hr{
 
 
 
-h2{
-    color: #000;
-    font-weight: 500;
-    margin-top: 7rem;
-    margin-bottom: -7rem;
-}
 
 
 
@@ -710,13 +783,6 @@ h2{
 
 /* Review Section Begins
 ----------------------------------*/
-
-h5{
-    margin-top: -6rem;
-    margin-left: -1rem;
-    font-size: 20px;
-    font-weight: 700;
-}
 
 
 .work{
@@ -862,14 +928,7 @@ h5{
   }
 
 
-  h3{
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    margin-top: -1rem;
-    margin-bottom: -20rem;
-    line-height: 3;
-}
+
 
 
 
@@ -900,12 +959,6 @@ h5{
     position: relative;
   }
 
-  .service-item  h4{
-    
-    color: black;
-    font-weight: 700;
-    font-size: 15px;
-  }
 
   
 
@@ -955,11 +1008,7 @@ h5{
    
     
     
-    .service-item h2{
-        justify-content: center;
-         font-size: 9px;
-        margin-bottom: -17rem;
-      }
+ 
      
     
     
@@ -1031,10 +1080,6 @@ h5{
 
 
 /*Below is the text at top of footer */
-h5{
-color: black;
-font-weight: 700;
-}
 
 
 
@@ -1048,15 +1093,7 @@ font-weight: 700;
     background: #66369D ;
 }
 
-h6{
-    text-align: center;
-    color: #000;
-    font-weight: 500;
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
 
-}
 
 .gallery-container{
     display: grid;
@@ -1581,7 +1618,8 @@ input.image-toggler {
 .services-section{
   background: linear-gradient(135deg, #66369D 60%, #Bf9553);
     background-size: cover;
-    padding: 60px 0;
+
+    margin-bottom: 5rem;
 }
   .inner-width{
     width: 100%;
@@ -1591,31 +1629,27 @@ input.image-toggler {
     margin: auto;
     padding: 0 20px;
     overflow: hidden;
+    margin-top:10rem;
+    margin-bottom: 5rem;
     text-align: center;
   }
 
 
-  h7{
-    margin-bottom: 10rem;
-    color: black;
-    text-align: center;
-    vertical-align: center;
-    
-  }
 
 
 
 
   .section-title{
     text-align: center;
-    color: black;
-    text-transform: uppercase;
-    font-size: 30px;
+    color: white;
+    margin-top: 5rem;
+  
+    font-size: 35px;
   }
   .border{
     width: 160px;
     height: 2px;
-    background: black;
+    background: white;
     margin: 35px auto;
     margin-top: -2.5rem;
   }
@@ -1628,17 +1662,21 @@ input.image-toggler {
   }
   
   .service-box{
-    max-width: 33.33%;
-    padding: 10px;
+    max-width: 40%;
+
+    border-radius: 1rem;
+    padding: 15px;
     text-align: center;
     color: black;
     cursor: pointer;
   }
   
   .service-icon{
+
     display: inline-block;
     width: 70px;
     height: 70px;
+  
 
     color: black;
     margin-bottom: 30px;
@@ -1668,11 +1706,12 @@ input.image-toggler {
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: white;
     font-weight: 900;
   }
   .service-desc{
     font-size: 18px;
-    color: black;
+    color: white;
     font-weight: 500;
 
   }

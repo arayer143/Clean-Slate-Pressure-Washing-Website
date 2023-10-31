@@ -1772,21 +1772,28 @@ input.image-toggler {
 
 
 
+.gallery-heading{
+  margin-top: 10rem;
+  text-align: center;
+}
 
 
 
+  h8{
 
-  h1{
-    font-family: Satisfy;
-    font-size:50px;
+    font-size:40px;
+    font-weight: 700;
+    margin-top: 10rem;
     text-align:center;
-    color:black;
-    padding:1%;
+    color: white;
+    
+    
   }
   #gallery{
     -webkit-column-count:4;
     -moz-column-count:4;
     column-count:4;
+    margin-top: 10rem;
     
     -webkit-column-gap:20px;
     -moz-column-gap:20px;

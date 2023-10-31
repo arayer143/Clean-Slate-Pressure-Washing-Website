@@ -1792,7 +1792,7 @@ input.image-toggler {
     -moz-column-gap:20px;
     column-gap:20px;
   }
-  @media (max-width:1200px){
+  @media (max-width:1400px){
     #gallery{
     -webkit-column-count:3;
     -moz-column-count:3;

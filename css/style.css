@@ -138,13 +138,6 @@ h6{
 
 
 
-h7{
-  margin-bottom: 15em;
-
-  text-align: center;
-  vertical-align: center;
-  
-}
 
 
 
@@ -1628,7 +1621,7 @@ input.image-toggler {
     justify-content: center;
     margin: auto;
     padding: 0 20px;
-    overflow: hidden;
+   
     margin-top:10rem;
     margin-bottom: 5rem;
     text-align: center;
@@ -1704,7 +1697,7 @@ input.image-toggler {
   }
   .service-title{
     font-size: 20px;
-    text-transform: uppercase;
+  
     margin-bottom: 10px;
     color: white;
     font-weight: 900;

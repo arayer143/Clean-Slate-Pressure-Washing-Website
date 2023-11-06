@@ -21,6 +21,12 @@ a:active {
 }
 
 
+.amp-img{
+  object-fit: contain;
+
+}
+
+
 .clear {
     clear: both;
 }

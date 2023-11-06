@@ -802,6 +802,10 @@ section.hero-text p {
     text-align: center;
 
   }
+
+  .swiper-slide a{
+    color: black;
+  }
   
   .work{
       background-color: whitesmoke;

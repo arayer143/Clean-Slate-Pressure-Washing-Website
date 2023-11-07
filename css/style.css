@@ -723,55 +723,16 @@ section.hero-text p {
 
 
 
-/* buttons for call me and email */
-
-.btn-container{
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    max-width: 400px;
-    
-}
-
-
-.btn-container i{
-    font-size: 20px;
-    margin-top: -13px;
-    margin-bottom: -8px;
-    margin-left: 10px;
-    margin-right: -5px;
-}
-
-
-
-  .btn-3 {
-    flex: auto;
-    margin-top: 50px;
-    margin-right: 15px;
-    width: 40%;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppsercase;
-    transition: 0.10;
-    background-size: 200% auto;
-    color: black;
-    font-weight: 800;
-    border-radius: 1rem;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    box-shadow: black;
-    background-image: linear-gradient(to right,  #ff6900 0%, #fcb900 100%);
-   }
 
 
 
 
 
-   .btn-3:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: black;
-  }
+
+
+
+
+
 
 
 
@@ -802,10 +763,12 @@ section.hero-text p {
     padding: 5px 30px;
     position: relative;
     margin-top: 15px;
+    border: #000;
   
   }
   .container .swiper {
     margin-top: 15px;
+    border: #000;
   }
   
   .container .swiper-slide {
@@ -814,6 +777,7 @@ section.hero-text p {
     position: relative;
     border-radius: 15px;
     text-align: center;
+   
 
   }
 
@@ -879,6 +843,7 @@ section.hero-text p {
       margin-top: 0.7rem;
       margin-right: 3rem;
       margin-left: 3rem;
+    
   }
   .testimonial-text{
       font-style: italic;
@@ -1345,12 +1310,76 @@ input.image-toggler {
 
 
   .footer-cta {
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-bottom: 1px solid #373636;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    vertical-align: auto;
 
   }
+
+
+
+
+
+
+  @keyframes shine {
+    0% {left: -100px}
+    20% {left: 100%}
+    100% {left: 100%}
+}
+
+  button {
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 10px 40px;
+    background-image: linear-gradient(to right,  #ff6900 0%, #fcb900 100%);
+
+    position: relative;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+
+   
+    overflow: hidden;
+}
+
+button a{
+  color: black;
+  text-decoration: none;
+
+}
+
+button :hover{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+button:before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200%;
+  background-image: linear-gradient(
+      120deg,
+      rgba(255,255,255, 0) 30%,
+      rgba(255, 255, 255, 0.411),
+      rgba(255,255,255, 0) 70%
+  );
+  top: 0;
+ 
+  left: -100px;
+  animation: shine 6s infinite linear; /* Animation */
+}
+
+
 
 
   .cta-text i{

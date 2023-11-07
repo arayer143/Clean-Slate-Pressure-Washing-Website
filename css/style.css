@@ -78,11 +78,12 @@ header{
 
 h1{
   text-align: center;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
   margin-top: 1rem;
   margin-bottom: 3rem;
-
+  text-decoration: underline;
+  text-underline-offset: .7rem;
 }
 
 
@@ -140,9 +141,14 @@ h6{
 }
 
 
+hr{
+  
+}
 
-
-
+.border{
+  color: black;
+  text-decoration: solid;
+}
 
 
 
@@ -154,6 +160,8 @@ h9{
 
 hr{
   color: #000;
+  font-weight: 500;
+  size: .5rem;
 }
 
 

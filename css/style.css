@@ -1214,27 +1214,75 @@ input.image-toggler {
 
 
 .free-quote-section{
+
     display: flex;
     height: 200px;
-   
+    width: 100%;
+    font-size: 30px;
     justify-content: center;
+    animation: bounce 4s infinite;
 }
 
 
 
 .quote-container{
-    margin-top: 3rem;
-    display: flex;
-    width: 300px;
+    margin-top: 8rem;
+    
+    
 
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
 }
+
+br{
+  display: none;
+}
+
+
+
+@media (max-width:550px)  {
+  .free-quote-section{
+  
+    color: black;
+    font-size: 27px;
+    line-height: 2;
+    margin-bottom: 3rem;
+  }
+  br{
+    display: block;
+  }
+
+}
+
+
+
+
+
+/* End '.<->' formatting */
+
+/* Start 'bounce' animation */
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	20% {transform: translateY(-10px);}
+	60% {transform: translateY(-5px);}
+}
+
+.bounce.text {
+	animation-name: bounce;
+}
+/* End 'bounce' animation */
+
+
 
 .quote-btn-container{
     width: fit-content;
    
 }
+
+
+
+
 
 .quote-btn-container i:hover{
     transition: 0.9s;

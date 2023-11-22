@@ -1,0 +1,44 @@
+.title-decoration {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 240px;
+  margin-top: 2rem;
+}
+.title-decoration::before, .title-decoration::after {
+  content: "";
+  position: absolute;
+  top: 17.5px;
+  display: block;
+  height: 1px;
+  width: 92px;
+  background-color: #aaa;
+}
+.title-decoration::after {
+  right: 0;
+}
+.title-decoration i[class*=fa] {
+  display: block;
+  margin: auto;
+  width: 36px;
+  height: 36px;
+  border: 1px solid teal;
+  border-radius: 50%;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  line-height: 35px;
+  color: black;
+}
+
+.contrast {
+  color: white;
+}
+.contrast .title-decoration::before,
+.contrast .title-decoration::after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contrast .title-decoration i[class*=fa-] {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}

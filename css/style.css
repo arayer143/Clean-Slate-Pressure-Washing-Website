@@ -67,14 +67,14 @@ header{
 
 
 
-
-
-
 .container-fluid{
   margin-top:2rem;
   background: linear-gradient(135deg, #66369D 60%, #Bf9553);
 
 }
+
+
+label { display: block; width: 100%; }
 
 
 h1{
@@ -1066,6 +1066,7 @@ section.hero-text p {
 
 .image-gallery{
     display: grid;
+    background-color: linear-gradient(135deg, #66369D 60%, #Bf9553);
 
 
 }
@@ -1078,7 +1079,7 @@ section.hero-text p {
 
 .gallery-container{
     display: grid;
-  
+    background-color: linear-gradient(135deg, #66369D 60%, #Bf9553);
     
     border-radius: 1rem;
 }
@@ -1086,6 +1087,7 @@ section.hero-text p {
 
 .gallery {
     display: flex;
+    background: linear-gradient(135deg, #66369D 60%, #Bf9553);
    
 
 	/* Compensate for excess margin on outer gallery flex items */
@@ -1095,9 +1097,7 @@ section.hero-text p {
 }
 
 .gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+margin-top: 2rem;
 
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     border-radius: 1rem;
@@ -1289,7 +1289,7 @@ br{
 
 .quote-btn-container{
     width: fit-content;
-   
+    background: linear-gradient(135deg, #66369D 60%, #Bf9553);
 }
 
 
@@ -1951,7 +1951,7 @@ button:before {
     -moz-column-count:4;
     column-count:4;
     
-    
+    background-color: linear-gradient(135deg, #66369D 60%, #Bf9553);
     -webkit-column-gap:20px;
     -moz-column-gap:20px;
     column-gap:20px;
@@ -2004,6 +2004,3 @@ button:before {
     padding:0px;
   }
 
-h6{
-  color: white;
-}

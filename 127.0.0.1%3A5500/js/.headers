@@ -1,0 +1,29 @@
+[
+  {
+    "applyTo": "jquery.js",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "bootstrap.min.js",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "script.js",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  }
+]

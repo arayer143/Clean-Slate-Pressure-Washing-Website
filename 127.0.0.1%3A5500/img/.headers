@@ -1,0 +1,110 @@
+[
+  {
+    "applyTo": "cleanslatelogo.png",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "whitecleanslatelogo.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "gutter-before.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "anotherfrontporch-before.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "gutter-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public,  max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "5stargoogle.png",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "yelpreview.png",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "parkinglot-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "parkinglot-before.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "fence-before.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "fence-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public,  max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "cleanslatelogo.png",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  }
+]

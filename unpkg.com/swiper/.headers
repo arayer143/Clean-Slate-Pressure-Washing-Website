@@ -1,0 +1,11 @@
+[
+  {
+    "applyTo": "swiper-bundle.min.js",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  }
+]

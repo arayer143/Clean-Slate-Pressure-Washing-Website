@@ -106,5 +106,59 @@
         "value": "public, max-age=31536000"
       }
     ]
+  },
+  {
+    "applyTo": "gutter-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "whitecleanslatelogo.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "gutter-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "whitecleanslatelogo.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "gutter-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
+  },
+  {
+    "applyTo": "whitecleanslatelogo.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
   }
 ]

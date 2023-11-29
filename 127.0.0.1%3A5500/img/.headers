@@ -178,5 +178,14 @@
         "value": "public, max-age=31536000"
       }
     ]
+  },
+  {
+    "applyTo": "anotherfrontporch-after.jpg",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000"
+      }
+    ]
   }
 ]

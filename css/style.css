@@ -113,6 +113,7 @@ h4{
   color: black;
   font-weight: 700;
   font-size: 15px;
+  text-align: center;
 }
 
 
@@ -135,7 +136,7 @@ h6{
   text-align: center;
   color: #000;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: black;
 
@@ -1932,19 +1933,6 @@ button:before {
 
 
 
-
-
-
-  h8{
-
-    font-size:35px;
-    font-weight: 700;
-    
-    text-align:center;
-    color: black;
-    
-    
-  }
   #gallery{
 
     -webkit-column-count:4;

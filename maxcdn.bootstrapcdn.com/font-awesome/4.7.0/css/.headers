@@ -1,6 +1,6 @@
 [
   {
-    "applyTo": "all.css",
+    "applyTo": "font-awesome.min.css",
     "headers": [
       {
         "name": "cache-control",

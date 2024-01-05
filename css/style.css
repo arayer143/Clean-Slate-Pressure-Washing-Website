@@ -588,7 +588,7 @@ section.hero-text p {
 
 
 .review-buttons{
-    -webkit-transition-duration: 0.4s; /* Safari */
+
     display: flex;
     animation: wiggle 3s infinite;
     width: 100;
@@ -777,9 +777,12 @@ section.hero-text p {
   .container .swiper-slide {
     text-align: start;
     font-size: 18px;
+    padding: 6px;
+    height: 100%;
     position: relative;
     border-radius: 15px;
     text-align: center;
+    background-color: white;
    
 
   }
@@ -836,7 +839,8 @@ section.hero-text p {
   }
 
   .swiper-button-next{
-      right: 0;
+      position: relative;
+
   }
 
   .swiper-button-prev{
@@ -846,6 +850,7 @@ section.hero-text p {
       margin-top: 0.7rem;
       margin-right: 3rem;
       margin-left: 3rem;
+     
     
   }
   .testimonial-text{
@@ -854,6 +859,7 @@ section.hero-text p {
   .card-body a{
       margin-top: 0.5rem;
       font-weight: bold;
+      height: 100%;
       text-decoration: underline;
   }
 

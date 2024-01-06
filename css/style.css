@@ -74,7 +74,7 @@ header{
 }
 
 
-label { display: block; width: 100%; }
+
 
 
 h1{
@@ -123,7 +123,7 @@ h4{
 h5{
   margin-top: -6rem;
   margin-left: -1rem;
-  font-size: 20px;
+  font-size: 25px;
 
   color: black;
   font-weight: 700;
@@ -173,7 +173,7 @@ hr{
 /*  Header
 ==================================== */
 
-header .navbar {
+.header .navbar {
     margin-bottom: 0;
     margin-right: 2rem;
     z-index: 500;
@@ -760,6 +760,9 @@ section.hero-text p {
   
    
 }
+h8{
+  font-size: 19px;
+}
 
 .work-container{
   height: 900px;
@@ -844,12 +847,15 @@ section.hero-text p {
   }
 
   .swiper-button-next{
-      position: relative;
+   margin-right: -15px;
+   margin-top: 5rem;
+  
 
   }
 
   .swiper-button-prev{
-      left: 0;
+    margin-left: -15px;
+    margin-top: 5rem;
   }
   .card-body{
       margin-top: 0.7rem;

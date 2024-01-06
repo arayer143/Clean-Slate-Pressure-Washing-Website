@@ -1099,6 +1099,7 @@ section.hero-text p {
 
 .gallery {
     display: flex;
+  
     background: linear-gradient(135deg, #66369D 60%, #Bf9553);
    
 
@@ -1731,6 +1732,9 @@ button:before {
 .services-section{
   background: linear-gradient(135deg, #66369D 60%, #Bf9553);
     background-size: cover;
+    margin-top: 2rem;
+
+
 
 }
 
@@ -1939,7 +1943,7 @@ button:before {
 
 
 .title-decoration{
-  margin-top: 6rem;
+ margin-bottom: 2rem; 
 }
 
 

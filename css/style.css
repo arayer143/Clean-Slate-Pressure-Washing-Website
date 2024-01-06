@@ -756,13 +756,18 @@ section.hero-text p {
 
 
 .work{
-    margin-bottom: -12rem;
+  height: 600px;
+  
+   
 }
 
-
+.work-container{
+  height: 900px;
+}
 
 .container {
     width: 100%;
+    height: 100%;
     padding: 5px 30px;
     position: relative;
     margin-top: 15px;
@@ -777,7 +782,7 @@ section.hero-text p {
   .container .swiper-slide {
     text-align: start;
     font-size: 18px;
-    padding: 6px;
+    padding: 16px;
     height: 100%;
     position: relative;
     border-radius: 15px;
@@ -794,7 +799,7 @@ section.hero-text p {
   .work{
       background-color: whitesmoke;
       color: black;
-      height: 500px;
+   
       margin-left: 10rem;
       margin-right: 10rem;
   }

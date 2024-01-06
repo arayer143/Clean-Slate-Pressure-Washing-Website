@@ -913,9 +913,9 @@ h8{
 
   
   #landing {
-    height: 53vh;
+    height: 400px;
 margin-top: 2rem;
-    margin-bottom: -23rem;
+    margin-bottom: -26rem;
     background: linear-gradient(135deg, #66369D 60%, #Bf9553);
 
 
@@ -936,7 +936,7 @@ margin-top: 2rem;
     flex-wrap: wrap;
     
     height: auto;
-    margin-bottom: 30rem;
+    margin-bottom: 10rem;
     
   }
 

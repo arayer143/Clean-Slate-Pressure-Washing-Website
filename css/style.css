@@ -913,9 +913,9 @@ h8{
 
   
   #landing {
-    height: 25vh;
-    margin-top: -1rem;
-    margin-bottom: -10rem;
+    height: 53vh;
+margin-top: 2rem;
+    margin-bottom: -23rem;
     background: linear-gradient(135deg, #66369D 60%, #Bf9553);
 
 
@@ -934,8 +934,9 @@ h8{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    
     height: auto;
+    margin-bottom: 30rem;
     
   }
 
@@ -963,7 +964,9 @@ h8{
 
 
     #landing{
-        height: 20vh;
+        height: 66vh;
+        margin-bottom: -36rem;
+
 
     }
 
@@ -972,7 +975,8 @@ h8{
         display: grid;
         margin-left: 5rem;
         justify-content: center;
-        margin-top: 3rem;
+        margin-bottom: 10rem;
+  
        
       
         grid-template-columns: repeat(2, 1fr);

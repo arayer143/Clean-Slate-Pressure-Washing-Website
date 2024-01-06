@@ -1774,15 +1774,16 @@ button:before {
   }
   .services-container{
     display: flex;
+    padding: 45px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     color:#000;
+    
   }
   
   .service-box{
     max-width: 40%;
-
     border-radius: 1rem;
     padding: 15px;
     text-align: center;

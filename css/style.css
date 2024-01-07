@@ -959,12 +959,15 @@ h8{
   
 
 
-@media (min-width:200px) and (max-width: 768px){
+@media (min-width:200px) and (max-width: 868px){
 
+  .work{
+    height: 700px;
+  }
 
 
     #landing{
-        height: 66vh;
+     
         margin-bottom: -38rem;
 
 

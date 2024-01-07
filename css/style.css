@@ -756,21 +756,19 @@ section.hero-text p {
 
 
 .work{
-  height: 600px;
   
+  border-radius: 1rem;
    
 }
 h8{
   font-size: 19px;
 }
 
-.work-container{
-  height: 900px;
-}
+
 
 .container {
     width: 100%;
-    height: 100%;
+   
     padding: 5px 30px;
     position: relative;
     margin-top: 15px;
@@ -786,7 +784,7 @@ h8{
     text-align: start;
     font-size: 18px;
     padding: 16px;
-    height: 100%;
+    
     position: relative;
     border-radius: 15px;
     text-align: center;
@@ -807,22 +805,14 @@ h8{
       margin-right: 10rem;
   }
 
-  @media  (min-width:300px){
 
-    .work{
-  
-    margin-left: 1rem;
-      margin-right: 1rem;
-    }
-  
-  }
 
 
 
 
   .work-container{
       max-width: 1200px;
-      height: 300px;
+     
       margin: 0 auto;
       padding: 7rem 0.5rem;
   }
@@ -847,15 +837,15 @@ h8{
   }
 
   .swiper-button-next{
-   margin-right: -15px;
-   margin-top: 5rem;
-  
+
+  margin-right: -1.5rem;
 
   }
 
   .swiper-button-prev{
-    margin-left: -15px;
-    margin-top: 5rem;
+    margin-left: -1.5rem;
+
+  
   }
   .card-body{
       margin-top: 0.7rem;
@@ -870,14 +860,31 @@ h8{
   .card-body a{
       margin-top: 0.5rem;
       font-weight: bold;
-      height: 100%;
+   
       text-decoration: underline;
   }
 
 
+  @media (min-width:200px) and (max-width: 768px){
 
 
+    .work{
+      
+      margin-left: 1rem;
+        margin-right: 1rem;
+      }
 
+      h8{
+        font-size: 13px;
+      }
+
+
+    .testimonial-text{
+      margin-top: 2rem;
+      font-size: 17px;
+    }
+
+  }
 
 
 
@@ -959,11 +966,8 @@ h8{
   
 
 
-@media (min-width:200px) and (max-width: 868px){
+@media (min-width:200px) and (max-width: 768px){
 
-  .work{
-    height: 800px;
-  }
 
 
     #landing{
@@ -972,6 +976,7 @@ h8{
 
 
     }
+
 
 
     .services {

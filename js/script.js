@@ -6,12 +6,10 @@
 
 
 var swiper = new Swiper(".mySwiper", {
-    autoplay: {
-        delay: 6000,
-        disableOnInteraction: false,
-      },
-    slidesPerView: 1,
-    spaceBetween: 12,
+  autoHeight: true, //enable auto height
+  spaceBetween: 10,
+  slidesPerView: 1,
+   
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",

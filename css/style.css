@@ -1074,8 +1074,8 @@ h8{
   padding: 3rem;
   margin-top: 8rem;
   margin-bottom: 8rem;
- margin-left: 7rem;
- margin-right: 7rem;
+ margin-left: 5rem !important;
+ margin-right: 5rem !important;
 }
 
 
